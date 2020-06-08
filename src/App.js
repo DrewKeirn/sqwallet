@@ -4,11 +4,13 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 
+// routes to components
+import Navbar from "./components/navbar.component";
+
 function App() {
   return (
     <Router>
-      <br/>
-      // add routes here
+      <Navbar />
     </Router>
   );
 }
