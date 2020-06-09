@@ -9,6 +9,7 @@ import Navbar from "./components/navbar.component";
 import Budget from "./components/budget.component";
 import MortgageCalc from "./components/mortgage-calc.component";
 import CompIntCalc from "./components/ci-calc.component";
+import Account from "./components/account.component";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/budget" component={Budget} />
         <Route path="/mortgagecalc" component={MortgageCalc}/>
         <Route path="/cicalc" component={CompIntCalc}/>
+        <Route path="/account" component={Account}/>
       </div>
     </Router>
   );
