@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 // routes to components
 import Navbar from "./components/navbar.component";
-import CreateUser from "./components/create-user.component";
+import Budget from "./components/budget.component";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className="container">
         <Navbar />
         <br/>
-        <Route path="/user" component={CreateUser} />
+        <Route path="/budget" component={Budget} />
       </div>
     </Router>
   );

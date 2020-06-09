@@ -12,7 +12,7 @@ export default class Navbar extends Component {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Budget<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/budget">Budget<span class="sr-only">(current)</span></a>
             </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Mortgage Calculator</a>
