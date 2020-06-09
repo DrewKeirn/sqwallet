@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // routes to components
 import Navbar from "./components/navbar.component";
 import Budget from "./components/budget.component";
+import MortgageCalc from "./components/mortgage-calc.component";
+import CompIntCalc from "./components/ci-calc.component";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Navbar />
         <br/>
         <Route path="/budget" component={Budget} />
+        <Route path="/mortgagecalc" component={MortgageCalc}/>
+        <Route path="/cicalc" component={CompIntCalc}/>
       </div>
     </Router>
   );

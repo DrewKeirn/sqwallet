@@ -11,15 +11,15 @@ export default class Navbar extends Component {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/budget">Budget<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="/budget">Budget</a>
             </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mortgage Calculator</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Compound Interest Calculator</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mortgagecalc">Mortgage Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cicalc">Compound Interest Calculator</a>
+            </li>
         </ul>
       </div>
       </nav>
